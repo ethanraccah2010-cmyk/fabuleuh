@@ -1,0 +1,26 @@
+# Système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Node / dépendances (installées par Vercel au déploiement)
+node_modules/
+package-lock.json
+
+# Secrets — NE JAMAIS committer
+.env
+.env*.local
+
+# Vercel
+.vercel
+
+# Sous-projet Astro séparé (non déployé avec ce site vitrine)
+sylve/
+
+# Artefacts outils / éditeur IA
+.claude/
+.agents/
+skills-lock.json

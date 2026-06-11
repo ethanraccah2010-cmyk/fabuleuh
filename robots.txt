@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Plan du site (mettre à jour le domaine après mise en ligne)
+Sitemap: https://lefabuleuh.com/sitemap.xml

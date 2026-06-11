@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Carte — Le Fabul'euh Grill, steakhouse à Montgeron (91)</title>
+  <meta name="description" content="Découvrez la carte du Fabul'euh : viandes & grillades françaises, burgers maison, salades, desserts. Restaurant grill / steakhouse à Montgeron (91230)." />
+  <meta name="keywords" content="carte restaurant grill Montgeron, menu steakhouse Montgeron, viande Montgeron Essonne, burger Montgeron" />
+  <link rel="canonical" href="https://lefabuleuh.com/menu.html" />
+  <meta property="og:type" content="restaurant.menu" />
+  <meta property="og:title" content="La Carte — Le Fabul'euh Grill, Montgeron" />
+  <meta property="og:description" content="Viandes & grillades françaises, burgers maison, salades, desserts. Steakhouse à Montgeron." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://lefabuleuh.com/menu.html" />
+  <meta property="og:locale" content="fr_FR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css?v=4" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org", "@type": "Restaurant", "name": "Le Fabul'euh Grill",
+    "servesCuisine": ["Grill", "Steakhouse", "Française"], "priceRange": "€€", "telephone": "+33169969232",
+    "url": "https://lefabuleuh.com/menu.html",
+    "address": { "@type": "PostalAddress", "streetAddress": "ZA Maurice Garin, Av. Jean Jaurès / Rte de Corbeil", "addressLocality": "Montgeron", "postalCode": "91230", "addressCountry": "FR" },
+    "hasMenu": "https://lefabuleuh.com/menu.html"
+  }
+  </script>
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Le Fabul'euh Grill — Accueil">
+        <img class="logo__img" src="images/logo.png" alt="Le Fabul'euh Grill" />
+      </a>
+      <nav class="nav__links" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a><a href="menu.html" class="active">La carte</a><a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html#reservation" class="btn btn--principal nav__cta"><i class="fa-solid fa-utensils"></i> Réserver</a>
+      <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-mobile"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <nav class="nav__mobile" id="nav-mobile" aria-label="Navigation mobile">
+    <a href="index.html">Accueil</a><a href="menu.html" class="active">La carte</a><a href="contact.html">Contact</a>
+    <a href="contact.html#reservation" class="btn btn--principal btn--bloc"><i class="fa-solid fa-utensils"></i> Réserver une table</a>
+  </nav>
+
+  <main>
+    <section class="menu-hero">
+      <div class="container">
+        <span class="surtitre">L'excellence de la viande</span>
+        <h1>La Carte</h1>
+        <p>Viande française régionale grillée à la commande, burgers maison et gourmandises. Bon appétit !</p>
+        <!-- Note éditable : retirer après relecture des prix (transcription OCR du PDF) -->
+        <div class="note">
+          <i class="fa-solid fa-circle-info"></i>
+          <span><strong>Carte transcrite depuis le document fourni</strong> (lecture automatique). Merci de vérifier les intitulés et les prix avant la mise en ligne — ils se modifient dans <code>script.js</code> (tableau <code>CARTE</code>). Supprimez ce bandeau une fois la relecture faite.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1.5rem">
+      <div class="container">
+        <!-- Onglets + panneaux générés par script.js -->
+        <div class="tabs" id="menu-tabs" role="tablist" aria-label="Catégories de la carte"></div>
+        <div id="menu-panels"></div>
+        <div class="center" style="margin-top:2.5rem">
+          <p class="muted">Une question sur un plat, une allergie ou un menu de groupe ?</p>
+          <a href="contact.html#reservation" class="btn btn--principal" style="margin-top:1rem"><i class="fa-solid fa-utensils"></i> Réserver une table</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="index.html" class="logo" aria-label="Le Fabul'euh Grill">
+            <img class="logo__img" src="images/logo.png" alt="Le Fabul'euh Grill" />
+          </a>
+          <p class="footer__desc">L'excellence de la viande. Restaurant grill & steakhouse à Montgeron — viande française régionale, ambiance diner.</p>
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/lefabuleuhmontgeron/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/p/Le-Fabuleuh-100087674053586/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer__col"><h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="menu.html">La carte</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html#reservation">Réserver</a></li></ul></div>
+        <div class="footer__col"><h4>Horaires</h4><ul><li>Lun–Jeu : 11h30–14h30 / 19h–22h</li><li>Ven : 11h30–14h30 / 19h–22h30</li><li>Sam : 11h30–15h / 19h–22h30</li><li>Dim : 11h30–15h / 19h–22h</li></ul></div>
+        <div class="footer__col"><h4>Coordonnées</h4><ul>
+          <li><i class="fa-solid fa-location-dot text-rouge"></i> ZA Maurice Garin, Av. Jean Jaurès / Rte de Corbeil, 91230 Montgeron</li>
+          <li><i class="fa-solid fa-phone text-rouge"></i> <a href="tel:+33169969232">01 69 96 92 32</a></li>
+        </ul></div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span class="js-year">2026</span> Le Fabul'euh Grill — Tous droits réservés.</span>
+        <span>Montgeron (91230) · Essonne</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>

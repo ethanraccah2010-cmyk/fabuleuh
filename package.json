@@ -1,0 +1,9 @@
+{
+  "name": "le-fabuleuh-grill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site vitrine Le Fabul'euh Grill — réservation connectée à Google Agenda (Vercel Functions).",
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
